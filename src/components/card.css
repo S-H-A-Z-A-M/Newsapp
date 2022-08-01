@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .image{
     fill: #f9ce69;
     width: 100%;
@@ -11,9 +17,9 @@
 }
 
 .card{
-    margin: 20px auto;
+    margin: 20px 20px;
     width: 300px;
-    height: 400px;
+    height: auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: #d9eff7;
     padding: 8px;
@@ -69,4 +75,8 @@ button:hover{
     right: 0;
     border-radius: 10%;
     letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
 }
